@@ -1,0 +1,36 @@
+#root {
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(252, 112, 112);
+  margin: 0px;
+}
+
+.navbar {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  margin: 15px;
+  height: 35px;
+  padding: 15px;
+}
+
+a.active {
+  color: rgb(242, 161, 91);
+  height: 35px;
+  margin: 15px;
+}
+
+.blogContent{
+  background-color: rgb(216, 216, 255);
+}
